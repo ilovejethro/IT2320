@@ -1,0 +1,113 @@
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FF3333;
+    background-image: linear-gradient(to bottom right, #FF3333, #FFFF99);
+
+}
+h1{
+    color: yellow;
+    text-shadow: 2px 2px 5px whitesmoke;
+    text-align: center;
+}
+
+nav
+{
+    text-align:center;
+}
+.welcome
+{
+    text-align: center;
+}
+li.name
+{
+    font-weight:bold;
+    color: darkred;
+}
+ul
+{
+    list-style-type: square;
+}
+img{
+    border-radius: 25px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+#emaillabel
+{
+    text-decoration: purple;
+    font-weight: bolder;
+    color: blue;
+}
+#transformed
+{
+    
+ border-radius: 0; transform: translate(30px, 20px) rotate(20deg);
+}
+#instructor
+{text-align:center}
+footer{
+    text-align:center;
+}
+
+div#sidecontent
+{
+    float:left;
+    width: 33%;
+    margin-top: 110px;
+    
+}
+div#classessidecontent
+{
+    float:left;
+    width: 33%;
+    
+    
+    
+}
+div#contactsidecontent
+{
+    float:left;
+    width: 66%;
+   
+    
+}
+div#contactmaincontent
+{
+    float:left;
+    width: 33%;
+}
+
+div#maincontent
+{
+    float:left;
+    width: 67%;
+  
+}
+
+@media only screen and (max-width: 629px)
+{
+    div#sidecontent
+    {
+        float:none;
+        width: 100%;
+    }
+
+    div#maincontent
+    {
+        float:none;
+        width:100%;
+    }
+}
+div#container
+{
+    color:inherit;
+    background-color: inherit;
+}
+
+div#leftcolumn, div#rightcolumn
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
